@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <!-- Meta tags para configuração básica -->
+        <title>Projeto Aprenser</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Importação de fontes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+        <!-- Reset CSS para normalização de estilos -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+
+        <!-- Estilos personalizados -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+    </head>
+
+    <body>
+        <!-- Cabeçalho escuro -->
+        <div class="wrapperContainer wrapperContainer-dark wrapperContainer-fixed">
+            <header class="header container">
+                <img src="assets/imagens/logoAprenser.png" alt="Aprenser">
+
+                <!-- Navegação -->
+                <nav class="header-nave">
+                    <ul>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#escola">Nossa Escola</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- Seção de destaque -->
+        <div class="wrapperContainer wrapperContainer-hero">
+            <section class="container heroBanner">
+                <div class="header-content">
+                    <h1 class="hero-title">O saber é o que transforma nosso <span class="upper">ser</span></h1>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+                <img src="assets/imagens/HeroImage.png" alt="mulher segurando flores">
+            </section>
+        </div>
+
+        <!-- Seção de cursos -->
+        <div class="wrapperContainer wrapperContainer-light wrapperContainer-padded" id="cursos">
+            <section  class="cursos container">
+                <h2 class="section-title">Principais Cursos</h2>
+                <div class="cursosContainer">
+
+                    <!-- Card de curso 1 -->
+                    <article class="cursos-card">
+                        <img src="assets/imagens/curso-design.png" alt="curso Design">
+                        <div class="cursos-card-content">
+                            <h3>Design para web</h3>
+                            <p>
+                                O curso Design para Web é perfeito para aqueles que desejam 
+                                aprender a criar designs atraentes e funcionais para sites e aplicativos móveis.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Card de curso 2 -->
+                    <article class="cursos-card">
+                        <img src="assets/imagens/curso-design-1.png" alt="curso Front-end">
+                        <div class="cursos-card-content">
+                            <h3>Front End Developer</h3>
+                            <p>
+                                Aprenda HTML, CSS e Javascript e crie interfaces ricas e semânticas para páginas web, aplicativos 
+                                on-line ou até mesmo aplicações para aparelhos celulares
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Card de curso 3 -->
+                    <article class="cursos-card">
+                        <img src="assets/imagens/curso-design-2.png" alt="curso Back-end">
+                        <div class="cursos-card-content">
+                            <h3>Back End Developer</h3>
+                            <p>
+                                Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de dados e 
+                                aprenderá como funciona o protocolo HTTP na prática.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+                <a href="#" class="btn section-btn">Ver mais cursos</a>
+            </section>
+        </div>
+
+        <!-- Seção sobre a escola -->
+        <div class="wrapperContainer wrapperContainer-dark2 wrapperContainer-padded" id="escola">
+            <section class="container escola" >
+                <img src="assets/imagens/nossa-escola.png" alt="Mulher jovem feliz">
+                <div class="escola-content">
+                    <h2>Nossa escola</h2>
+                    <p>
+                        Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online.
+                        Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados.
+                        Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades
+                        necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Seção de contatos -->
+        <div class="wrapperContainer wrapperContainer-light wrapperContainer-padded" id="contatos">
+            <section class="container" >
+                <h2 class="section-title">Contatos</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3469.6763523976038!2d-50.80596232446376!3d-29.584018775158683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95192255fab4e015%3A0x3f34af500635cd12!2sRua%20Fridolino%20Linden%2C%20418%20-%2015%20De%20Novembro%2C%20Igrejinha%20-%20RS%2C%2095650-000!5e0!3m2!1spt-BR!2sbr!4v1704218510141!5m2!1spt-BR!2sbr" 
+                width="100%" height="525" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <!-- Informações de contato -->
+                <address class="contatos-address">
+                    Av. da Liberdade, 1001<br>
+                    Tel.: +351 21 123 456<br>
+                    E-mail: contato@aprenser.com<br>
+
+                    Desenvolvido por Maicon Botelho
+                </address>
+            </section>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="wrapperContainer wrapperContainer-dark">
+            <footer class="footer">Desenvolvido por <a href="https://maiconbotelho.com.br">Maicon Botelho</a></footer>
+        </div>   
+    </body>
+</html>
